@@ -1,0 +1,26 @@
+{
+  "name": "shelfnativeMacOSX",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native-macos/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-mixin": "^2.0.2",
+    "react-native-macos": "git+https://github.com/jhen0409/react-native-desktop.git#patch-2",
+    "react-native-meteor": "^1.0.1",
+    "react-native-router-flux": "^3.36.0",
+    "react-native-share-extension": "^1.0.3",
+    "react-native-side-menu": "^0.20.1",
+    "react-native-swipeout": "https://github.com/dancormier/react-native-swipeout.git",
+    "react-native-vector-icons": "^3.0.0",
+    "react-timer-mixin": "^0.13.3",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-plugin-module-resolver": "^2.3.0",
+    "babel-preset-react-native": "1.9.0"
+  }
+}
